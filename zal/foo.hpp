@@ -5,7 +5,7 @@
 #include <list>
 #include <vector>
 using namespace std;
-//dlaczego github nie zwraca mi wyniku testy
+//dobra juz dziala, bo 
 vector< char > foo(list< Human >& people)
 {
   vector < char > v;
