@@ -1,12 +1,21 @@
 #pragma once
-
 #include "Human.hpp"
-
 #include <list>
 #include <vector>
+using namespace std;
 
-std::vector< char > foo(std::list< Human >& people)
+vector< char > foo(list< Human >& people)
 {
-    // Twoja implementacja tutaj
-    return {};
+  vector < char > v(people.size());
+  for (auto it = people.rbegin(); it != people.rend(); it++)
+  {
+    it->birthday();   
+    if (it->isMonster()==true){
+      v.emplace_back('n');
+    }
+    else {
+      v.emplace_back('y'); 
+    }
+  }
+  return v;
 }
