@@ -1,5 +1,7 @@
 #pragma once
+
 #include "Human.hpp"
+
 #include <list>
 #include <vector>
 using namespace std;
@@ -17,5 +19,5 @@ vector< char > foo(list< Human >& people)
       v.emplace_back('y'); 
     }
   }
-  return v;
+  return {v};
 }
