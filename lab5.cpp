@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+  /*
     int x = 5;
     // int           nel = 10;
     vector< int >          v(10);
@@ -31,7 +32,7 @@ int main()
         cout << e.getName() << endl;
     }
 
-    /* for (int i = 0; i < roz; i++) {
+     for (int i = 0; i < roz; i++) {
          cout << "Element nr." << i << " Wartosc:  " << v[i] << " Adres: " << &v[i] << endl;
      } */
 }
